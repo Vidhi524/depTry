@@ -1,0 +1,56 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* App Container */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  .app-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Content Styling */
+  .app-content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-content button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .app-content button:hover {
+    background-color: #005f73;
+  }
+  
+  .app-content p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Footer Styling */
+  .app-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

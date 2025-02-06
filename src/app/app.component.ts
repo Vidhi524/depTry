@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'depTry';
+  message: string = 'Click the button to change this message!';
+
+  changeMessage() {
+    this.message = 'You have clicked the button!';
+  }
 }
